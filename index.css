@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Georgia", Georgia, serif;
+  background-color: #1b1e1c;
+}
+
+div, p {
+  text-align: center;
+}
+
+button {
+  background-color: #0ad48a;
+  border: 2px solid #8a8a8a;
+  color: black;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 2px;
+  margin: 8px 2px;
+}
+
+button:hover {
+  background-color: #00e68f;
+  border: 2px solid #8a8a8a;
+  color: black;
+}
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      border: 1px solid #0c0c0c;
+    }
+
+    li {
+      float: left;
+    }
+
+    li:last-child {
+      border-right: none;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      border: 1px solid #0c0c0c;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+      font-size: 18px;
+    }
+
+    li a:hover {
+      background-color: #009b62;
+      font-size: 18px;
+      padding: 12.5px 16px;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+th, td {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+table {
+  border: 3px solid black;
+  border-radius: 10px;
+  display: inline-table;
+}
